@@ -20,7 +20,7 @@
     <header>
         <nav>
             <img src="assets/images/logo.png" alt="logo image of taz creative">
-            <button class="btn"><a href="#">Contact Us</a></button>
+            <button class="btn"><a href="#contact-section">Contact Us</a></button>
         </nav>
 
         <section class="hero-section">
@@ -49,13 +49,13 @@
 
     <footer>
         <section class="footer-container">
-            <main class="contact-section">
+            <main class="contact-section" id="contact-section">
                 <h4>Contact Us</h4>
                 <p>Have a message for us? Contact us below</p>
                 <form action="index.html" method="post">
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" name="email" id="emailHASHED" placeholder="Input your email">
+                        <input type="email" class="input-field" name="email" id="emailHASHED" placeholder="Input your email">
                     </div>
 
                     <div>
@@ -70,7 +70,8 @@
                 <h4>Be the first to know when we launch</h4>
                 <form action="index.html" method="post">
                     <label for="email">Subscribe</label>
-                    <input type="email" name="email" id="emailHASHED" placeholder="Input your email">
+                    <input type="email" class="input-field" name="email" id="emailHASHED" placeholder="Input your email">
+                    <button type="submit" id="submit">Subscribe</button>
                 </form>
             </main>
         </section>
