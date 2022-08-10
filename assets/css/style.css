@@ -109,7 +109,7 @@ nav {
       -ms-flex-align: center;
           align-items: center;
   height: 66px;
-  padding: 24px;
+  padding: 36px 24px;
 }
 nav img {
   width: 150px;
@@ -278,7 +278,7 @@ footer .copyright {
 }
 @media (max-width: 600px) {
   .hero-section {
-    height: 70vh;
+    height: 60vh;
   }
 
   footer .newsletter-section, footer .contact-section {
