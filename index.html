@@ -14,6 +14,12 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!--AOS CSS CDN-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+    <!--AOS PLUGIN-->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
@@ -24,7 +30,7 @@
         </nav>
 
         <section class="hero-section">
-            <article class="description-container">
+            <article class="description-container" data-aos="fade-up" data-aos-duration="500" data-aos-easing="ease-in-quad">
                 <h1>Welcome to Taz Creative</h1>
                 <p>This site is being developed, but you can connect with us through our various social media platforms to stay updated</p>
 
@@ -35,13 +41,13 @@
                 </div>
             </article>
 
-            <article class="social-links">
+            <article class="social-links" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-quad">
                 <a href="#"><button class="telegram"><img src="assets/images/telegram-icon.svg" alt="icon for telegram">Join other creators</button></a>
                 <a href="#"><button class="twitter"><img src="assets/images/twitter-icon.svg" alt="icon for twitter">Catch creative convos</button></a>
                 <a href="#"><button class="instagram"><img src="assets/images/instagram-icon.svg" alt="icon for instagram">Check out our projects</button></a>
             </article>
 
-            <article class="image-container">
+            <article class="image-container" data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease-in-quad">
                 <img src="assets/images/taz-pattern.svg" alt="pattern for taz creative">
             </article>
         </section>
@@ -49,24 +55,24 @@
 
     <footer>
         <section class="footer-container">
-            <main class="contact-section" id="contact-section">
+            <main class="contact-section" id="contact-section" data-aos="fade-up" data-aos-duration="600" data-aos-easing="ease-in-quad">
                 <h4>Contact Us</h4>
                 <p>Have a message for us? Contact us below</p>
                 <form action="index.html" method="post">
                     <div>
                         <label for="email">Email</label>
-                        <input type="email" class="input-field" name="email" id="emailHASHED" placeholder="Input your email">
+                        <input type="email" class="input-field" name="email" id="emailHASHED" placeholder="Input your email" required>
                     </div>
 
                     <div>
                         <label for="message">Message</label>
-                        <textarea name="message" id="msgHASHED" placeholder="Input your message here"></textarea>
+                        <textarea name="message" id="msgHASHED" placeholder="Input your message here" required></textarea>
                     </div>
                     <button type="submit" id="submit">Send Message</button>
                 </form>
             </main>
 
-            <main class="newsletter-section">
+            <main class="newsletter-section" data-aos="fade-up" data-aos-duration="700" data-aos-easing="ease-in-quad">
                 <h4>Be the first to know when we launch</h4>
                 <form action="index.html" method="post">
                     <label for="email">Subscribe</label>
@@ -78,6 +84,11 @@
 
         <div class="copyright"><p>&copy; TAZ Innovation LLC | 2022</p></div>
     </footer>
+
+<!--Jquery CDN-->
+<script src="assets/js/script.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
 </body>
 
 </html>
