@@ -1,0 +1,111 @@
+html {
+  scroll-behavior: smooth;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "syne", sans-serif;
+  padding: 0 12px;
+}
+
+h1 {
+  font-size: clamp(2rem, 3vw, 3.5rem);
+  line-height: 0.9;
+}
+
+h2 {
+  font-size: clamp(1.72rem, 3vw, 2.5rem);
+}
+
+h3 {
+  font-size: clamp(1.5rem, 2.5vw, 2em);
+}
+
+h4 {
+  font-size: clamp(18px, 2.5vw, 1.5em);
+}
+
+p {
+  font-size: 1em;
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  padding: 16px 18px;
+  border: 0px;
+  font-family: "syne", sans-serif;
+  color: #fff;
+  background-color: #000;
+  border-radius: 12px;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+button img {
+  margin-right: 12px;
+}
+
+.btn {
+  -webkit-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.btn:hover {
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+  background-color: rgb(255, 204, 0);
+}
+
+.hero-section{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    height: 80vh;
+    max-width: 1440px;
+}
+.hero-section .msg-icon{
+    font-size: 120px;
+    margin-bottom: 24px;
+    color: rgb(255, 204, 0);;
+}
+.hero-section h1{
+    margin-bottom: 12px;
+}
+
+.hero-section .social-links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 48px;
+}
+.hero-section button.telegram {
+  background-color: #1c85e5;
+}
+.hero-section button.twitter {
+  background-color: #9747ff;
+}
+.hero-section button.instagram {
+  background-color: #ed3237;
+}

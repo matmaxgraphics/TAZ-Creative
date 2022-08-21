@@ -39,6 +39,7 @@ p {
 a {
   text-decoration: none;
   color: inherit;
+  cursor: pointer;
 }
 button {
   padding: 16px 18px;
@@ -51,6 +52,7 @@ button {
   display: flex;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
   img {
     margin-right: 12px;
   }
