@@ -74,6 +74,27 @@ button img {
   background-color: rgb(255, 204, 0);
 }
 
+nav{
+    display: flex;
+    margin-top: 24px;
+
+}
+nav a{
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+}
+nav span{
+    text-decoration: underline;
+}
+nav a:hover{
+    color: rgb(255, 204, 0);
+    transition: 0.3s;
+}
+nav a i{
+    margin-right: 12px;
+}
+
 .hero-section{
     display: flex;
     justify-content: center;
@@ -108,4 +129,14 @@ button img {
 }
 .hero-section button.instagram {
   background-color: #ed3237;
+}
+
+
+@media (max-width: 600px){
+    .hero-section{
+        text-align: center;
+    }
+    .hero-section p{
+        margin-top: 12px;
+    }
 }
