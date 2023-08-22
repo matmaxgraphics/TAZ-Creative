@@ -1,3 +1,4 @@
+@import url('cabinet-grotesk.css');
 html {
   scroll-behavior: smooth;
 }
@@ -10,7 +11,11 @@ html {
 }
 
 body {
-  font-family: "syne", sans-serif;
+  font-family: "CabinetGrotesk", sans-serif;
+}
+
+h1, h2, h3{
+  font-family: 'CabinetGrotesk-Bold';
 }
 
 h1 {
@@ -28,23 +33,26 @@ h3 {
 
 h4 {
   font-size: clamp(18px, 2.5vw, 1.5em);
+  font-family: 'CabinetGrotesk-Medium';
 }
 
 p {
   font-size: 1em;
   font-weight: 400;
+  font-family: 'CabinetGrotesk-Regular';
 }
 
 a {
   text-decoration: none;
   color: inherit;
+  font-family: 'CabinetGrotesk-Regular';
 }
 
 button {
   padding: 16px 18px;
   border: 0px;
-  font-family: "syne", sans-serif;
-  color: #fff;
+  font-family: 'CabinetGrotesk-Regular'; 
+   color: #fff;
   background-color: #000;
   border-radius: 12px;
   font-size: 16px;
@@ -81,7 +89,7 @@ button img {
   border: 0px;
   padding: 6px 8px;
   line-height: 1.3;
-  font-family: "syne", sans-serif;
+  font-family: 'CabinetGrotesk-Regular';
   font-size: 16px;
 }
 
@@ -93,7 +101,7 @@ textarea {
   border: 0px;
   padding: 6px 8px;
   line-height: 1.3;
-  font-family: "syne", sans-serif;
+  font-family: 'CabinetGrotesk-Regular';
   font-size: 16px;
   resize: none;
 }
